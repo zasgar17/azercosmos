@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const slides = [
   // If the file is in /public, use a root path like "/war-zone-landscape-with-apocalyptic-destruction.jpg"
-  { id: 1, title: "Title 1", subtitle: "Subtitle 1", text: "Text area 1", image: "https://www.airswift.com/hs-fs/hubfs/Imported_Blog_Media/FEATURED-safetymoment-natural-disasters.jpg?width=690&name=FEATURED-safetymoment-natural-disasters.jpg" },
+  { id: 1, title: "Title 1", subtitle: "Subtitle 1", text: "Text area 1", image: "https://i.ytimg.com/vi/4Uz5R4pqFyA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtq8UOjSQBFSHTrwp3Mp0xzkFhhA" },
   { id: 2, title: "Title 2", subtitle: "Subtitle 2", text: "Text area 2", image: "/src/assets/hero2.jpg" },
   { id: 3, title: "Title 3", subtitle: "Subtitle 3", text: "Text area 3", image: "https://i.pinimg.com/736x/79/75/21/79752188e3149b727dcd6558d4211c27.jpg" },
 ];
