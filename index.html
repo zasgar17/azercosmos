@@ -1,61 +1,13 @@
 <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SəslənirTorpaq</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="navbar" id="navbar">
-    <div class="logo">SəslənirTorpaq</div>
-    <nav>
-      <ul>
-        <li><a href="#">Ana səhifə</a></li>
-        <li><a href="#">Məşhurdur</a></li>
-        <li><a href="#">Torpaq Növləri</a></li>
-        <li><a href="#">Əlaqə</a></li>
-        <li><a href="#">Komandamız</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <div class="overlay">
-      <h1>Yaradıcı Düşüncə və İnovasiya</h1>
-      <p>Torpağın səsi burada eşidilir. Kəşf et, öyrən, paylaş!</p>
-      <button>Daha ətraflı</button>
-    </div>
-  </section>
-
-  <section class="functions">
-    <div class="function-box">
-      <img src="https://via.placeholder.com/300x200" alt="Function 1">
-      <h2>1. Məlumat Bazasına Bax</h2>
-      <p>Torpaqla bağlı bilikləri burada tapa bilərsən.</p>
-    </div>
-    <div class="function-box">
-      <img src="https://via.placeholder.com/300x200" alt="Function 2">
-      <h2>2. Öz Layihəni Paylaş</h2>
-      <p>Torpaqla bağlı işlərini bizlə paylaş, digərlərinə ilham ver.</p>
-    </div>
-    <div class="function-box">
-      <img src="https://via.placeholder.com/300x200" alt="Function 3">
-      <h2>3. Nəticələri İzlə</h2>
-      <p>Analitik nəticələrlə torpağın səsini öyrən.</p>
-    </div>
-  </section>
-
-  <script>
-    // Navbar scroll effect
-    window.addEventListener('scroll', function() {
-      const navbar = document.getElementById('navbar');
-      if (window.scrollY > 50) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-  </script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TorpağınSəsi</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

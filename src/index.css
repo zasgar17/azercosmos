@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-800;
+}
+/* Place dots slightly inside the image and keep them subtle */
+.custom-dots {
+  position: absolute !important;
+  bottom: 10px !important;       /* inside the image area */
+  left: 0;
+  right: 0;
+}
+
+.custom-dots li {
+  margin: 0 6px !important;
+}
+
+.custom-dots li button {
+  padding: 0 !important;         /* remove default slick padding */
+}
+
+.custom-dots li.slick-active button {
+  background-color: rgba(0, 0, 0, 0.638) !important;
+  transform: scale(1.1);
+}
